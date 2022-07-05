@@ -27,7 +27,6 @@ export const Search = () => {
 }
 
 const FormStyle = styled.form`
-  margin: 0rem 7rem;
   div{
     position: relative;
     width: 100%;
@@ -47,7 +46,7 @@ const FormStyle = styled.form`
   svg{
     position: absolute;
     top: 35%;
-    left: 3%;
+    left: 1%;
     transform: translate(100% - 50%);
     color: white;
   }

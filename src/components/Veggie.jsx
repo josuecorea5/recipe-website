@@ -32,7 +32,15 @@ export const Veggie = () => {
               perPage: 3,
               arrows: false,
               drag: 'free',
-              gap: '3rem'
+              gap: '3rem',
+              breakpoints: {
+                480: {
+                  perPage: 1
+                },
+                768: {
+                  perPage: 2
+                }
+              }
             }}
           >
             {popularVeggie.map(recipe => (

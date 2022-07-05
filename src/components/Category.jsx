@@ -28,22 +28,21 @@ export const Category = () => {
 }
 
 const List = styled.div`
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+  justify-items: center;
   margin: 2rem 0rem;
 `;
 
 const Slink = styled(NavLink)`
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  margin-right: 2rem;
   text-decoration: none;
   background: linear-gradient(35deg, #494949, #313131);
-  width: 6rem;
-  height: 6rem;
+  width: 7rem;
+  height: 7rem;
   cursor: pointer;
   transform: scale(0.8);
 

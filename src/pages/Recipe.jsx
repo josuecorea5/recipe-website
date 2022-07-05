@@ -55,7 +55,8 @@ const DetailWrapper = styled.div`
   margin-top: 5rem;
   margin-bottom: 5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+  justify-content: center;
   .active {
     background: linear-gradient(35deg, #494949,#313131);
     color: white;
@@ -70,6 +71,9 @@ const DetailWrapper = styled.div`
     font-size: 1.2rem;
     line-height: 2.5rem;
   }
+  img{
+    width: 100%;
+  }
 `;
 
 const Button = styled.button`
@@ -83,6 +87,6 @@ const Button = styled.button`
 `;
 
 const Info = styled.div`
-  margin-left: 3rem;
-  width: 60%;
+  margin-left: 2rem;
+  margin-top: 2rem;
 `;
